@@ -1,3 +1,1 @@
-  
-  
-  print("sadsda")   
+print("sadsda")

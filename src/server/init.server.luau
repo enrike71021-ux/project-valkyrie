@@ -1,1 +1,1 @@
-                                   print("Hello world aboba, from server!")
+print("Hello world aboba, from server!")
