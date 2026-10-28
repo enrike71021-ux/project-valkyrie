@@ -6,6 +6,12 @@
     "ReplicatedStorage": {
       "Shared": {
         "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "SummonMinion": {
+          "$className": "RemoteEvent"
+        }
       }
     },
 
