@@ -16,3 +16,6 @@ jobs:
 
       - name: Selene
         run: selene src
+
+      - name: Rojo Build
+        run: rojo build -o project-valkyrie.rbxlx
