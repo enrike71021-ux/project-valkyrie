@@ -5,4 +5,17 @@
 /*.rbxlx.lock
 /*.rbxl.lock
 
+# Local test place builds
+/test-place.rbxl
+/test-place.rbxlx
+
+# Local test output
+/jest-output*.log
+
+# Wally installed packages
+/DevPackages/
+
 sourcemap.json
+
+/AGENTS.md
+/IDEA.md
