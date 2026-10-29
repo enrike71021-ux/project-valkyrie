@@ -1,0 +1,14 @@
+{
+  "name": "project-valkyrie-tests",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "DevPackages": {
+        "$path": "DevPackages"
+      },
+      "Project": {
+        "$path": "src"
+      }
+    }
+  }
+}
