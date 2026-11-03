@@ -128,6 +128,11 @@ while ($stableReads -lt 3) {
 
 $logText = Get-Content -LiteralPath $logFile -Raw
 
+# Morievskiy: Jest пишет в лог ANSI-коды цвета; они приклеиваются к числам
+# ("[31m3 failed") и ломают проверку '\b\d+\s+failed\b' — падения выглядели как успех.
+# Снимаем коды перед разбором сводки.
+$logText = $logText -replace '\x1b\[[0-9;]*m', ''
+
 Write-Host ""
 Write-Host "========== Jest output =========="
 Get-Content -LiteralPath $logFile
